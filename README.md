@@ -9,7 +9,7 @@ Here, I used **GitHub actions** that offer CI workflow template and I used **Pyt
 
 Tests : 
 
-![Screenshot](C:\Users\lenovo\Desktop\DevOps_CI-CD\CI-CD-pipeline\screenshots\devops1.PNG)
+![Screenshot](./screenshots/devops1.PNG)
 
 ## 2. Heroku for deployment : 
 
