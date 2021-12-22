@@ -7,9 +7,14 @@ Continuous integration (CI) is a software practice that requires frequently comm
 When I commit code to my repository, I can continuously build and test the code to make sure that the commit doesn't introduce errors. 
 Here, I used **GitHub actions** that offer CI workflow template and I used **Pytest** to test my **Hello world Flask** application.
 
-Tests : 
+### Test results with **Pytest** : 
 
-![Screenshot](./screenshots/devops1.PNG)
+![Test1](./screenshots/devops1.PNG)
+
+![Test2](./screenshots/devops2.PNG)
+
+![CI](./screenshots/devops3.PNG)
+
 
 ## 2. Heroku for deployment : 
 
@@ -35,3 +40,6 @@ yml
     git remote add heroku https://heroku:$HEROKU_API_TOKEN@git.heroku.com/$HEROKU_APP_NAME.git
     git push heroku HEAD:master -f
 
+#### Deployment result on heroku : 
+
+![CD](./screenshots/devops4.PNG)
