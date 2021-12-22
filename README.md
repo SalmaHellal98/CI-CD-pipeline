@@ -7,11 +7,15 @@ Continuous integration (CI) is a software practice that requires frequently comm
 When I commit code to my repository, I can continuously build and test the code to make sure that the commit doesn't introduce errors. 
 Here, I used **GitHub actions** that offer CI workflow template and I used **Pytest** to test my **Hello world Flask** application.
 
+Tests : 
+
+![Screenshot](C:\Users\lenovo\Desktop\DevOps_CI-CD\CI-CD-pipeline\screenshots\devops1.PNG)
+
 ## 2. Heroku for deployment : 
 
 Continuous deployment is a strategy for software releases wherein any code commit that passes the automated testing phase is automatically released into the production environment, making changes that are visible to the software's users.
 
-### Deploying the flask app on HEROKU : 
+### Deploying the flask app on Heroku : 
 
 * Install Heroku CLI
 * Login to Heroku CLI session: heroku login
@@ -21,6 +25,7 @@ Continuous deployment is a strategy for software releases wherein any code commi
 'Deploy to Heroku' Action:
 
 yml
+
 -name: Deploy to Heroku
   env:
     HEROKU_API_TOKEN: ${{ secrets.HEROKU_API_TOKEN }}
