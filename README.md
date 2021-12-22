@@ -40,6 +40,8 @@ yml
     git remote add heroku https://heroku:$HEROKU_API_TOKEN@git.heroku.com/$HEROKU_APP_NAME.git
     git push heroku HEAD:master -f
 
-#### Deployment result on heroku : 
+#### Deployment result on heroku :
+
+![build](./screenshots/deployment.PNG)
 
 ![CD](./screenshots/devops4.PNG)
