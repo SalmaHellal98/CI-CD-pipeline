@@ -11,8 +11,6 @@ Here, I used **GitHub actions** that offer CI workflow template and I used **Pyt
 
 ![Test1](./screenshots/devops1.PNG)
 
-![Test2](./screenshots/devops2.PNG)
-
 ![CI](./screenshots/devops3.PNG)
 
 
