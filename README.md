@@ -27,7 +27,7 @@ Continuous deployment is a strategy for software releases wherein any code commi
 
 'Deploy to Heroku' Action:
 
-![heroku_action](./screenshots/deploy_to_heroku_action_.PNG)
+![heroku_action](./screenshots/deploy_to_heroku action_.PNG)
 
 #### Deployment result on heroku :
 
